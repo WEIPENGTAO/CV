@@ -2,3 +2,11 @@
 *.txt
 *.pdf
 *.docx
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/.gitignore
+/.idea/encodings.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/计算机视觉.iml
+/.ipynb_checkpoints/ex1-checkpoint.ipynb
