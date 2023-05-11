@@ -49,9 +49,9 @@ for feature in tqdm(features, desc='Calculating distances'):
     distances.append(distance)
 
 # 根据SIFT特征距离排序，找出与查询图像最相似的图像
-indices = np.argsort(distances)[:10]
+indices = np.argsort(distances)[:5]
 
-# 显示结果，将10张图显示在不同的窗口
+# 显示结果，将5张图显示在不同的窗口
 for index in indices:
     img = cv2.imread(os.path.join(dataset_path, os.listdir(dataset_path)[index]))
     cv2.imshow('result', img)
