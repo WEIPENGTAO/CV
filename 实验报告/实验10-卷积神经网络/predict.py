@@ -45,7 +45,6 @@ def load_model():
     return model
 
 
-
 def preprocess(image_path):
     image = Image.open(image_path).convert('L')
     transform = transforms.Compose([
